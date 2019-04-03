@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../styles/blog-subscribe.css">
+  <link rel="stylesheet" href="styles/blog-home.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  <script src="script.js"></script>
+  <title>Subscribe</title>
+</head>
+<body>
+  <div class="container">
+    <nav class="navigation">
+      <a class="navigation_link" href="../index.html">Home</a>
+      <a class="navigation_link" href="photos.html">Photos</a>
+      <a class="navigation_link" href="#">Videos</a>
+      <a class="navigation_link" href="#">Articles</a>
+      <a class="navigation_link" href="#">Subscribe</a>
+    </nav>
+
+  <header class="header">
+    <h1 class="header__h1">Subscribe</h1>
+    <blockquote class="header__quote">
+      <p class="header__quote__text">if you want to follow me</p>
+    </blockquote>
+  </header>
+
+  <main class="main">
+    <section class="main__section_first">
+      <div class="main-section_subscribe-form-1">
+        <form class="form-style-4" action="" method="post">
+        <label for="field1">
+        <span>Enter Your Name</span><input type="text" name="field1" required="true" />
+        </label><br>
+        <label for="field2">
+        <span>Email Address</span><input type="email" name="field2" required="true" />
+        </label><br>
+        <label for="field3">
+        <span>Why this is so important for you</span><input type="text" name="field3" required="true" />
+        </label><br>
+        <label for="field4">
+        <span>How can you be useful for me?</span><textarea name="field4" onkeyup="adjust_textarea(this)" required="true"></textarea>
+        </label><br>
+        <label>
+        <span> </span><input type="submit" value="Send Letter" />
+        </label>
+        </form>
+      </div>
+    </section>
+
+    <section class="main__section_second">
+      <div class="main-section_subscribe-form-1">
+        <div class="form-style-2">
+          <div class="form-style-2-heading">Provide your information</div>
+            <form action="" method="post">
+            <label for="field1"><span>Name <span class="required">*</span></span><input type="text" class="input-field" name="field1" value="" /></label>
+            <label for="field2"><span>Email <span class="required">*</span></span><input type="text" class="input-field" name="field2" value="" /></label>
+            <label><span>Telephone</span><input type="text" class="tel-number-field" name="tel_no_1" value="" maxlength="4" />-<input type="text" class="tel-number-field" name="tel_no_2" value="" maxlength="4"  />-<input type="text" class="tel-number-field" name="tel_no_3" value="" maxlength="10"  /></label>
+            <label for="field4"><span>Regarding</span><select name="field4" class="select-field">
+            <option value="General Question">General</option>
+            <option value="Advertise">Advertisement</option>
+            <option value="Partnership">Partnership</option>
+            </select></label>
+            <label for="field5"><span>Message <span class="required">*</span></span><textarea name="field5" class="textarea-field"></textarea></label>
+            <label><span> </span><input type="submit" value="Submit" /></label>
+            </form>
+        </div>
+      </div>
+    </section>
+
+    <section class="main__section_first">
+      <div class="form-style-6">
+        <h2>Contact Us</h2>
+          <form>
+          <input type="text" name="field1" placeholder="Your Name" />
+          <input type="email" name="field2" placeholder="Email Address" />
+          <textarea name="field3" placeholder="Type your Message"></textarea>
+          <input type="submit" value="Send" />
+          </form>
+      </div>
+    </section>
+  </div>
+
+  <section class="main__section_find">
+    <h2 class="main__section__h2_find">How you can find me</h2>
+    <div class='social'>
+    <div class="social_item">
+      <a href="https://www.youtube.com/user/JonnaJinton" target="_blank"><i class="fab fa-youtube"></i></a>
+    </div>
+    <div class="social_item">
+      <a href="https://twitter.com/vkozulya" target="_blank"><i class="fab fa-twitter-square"></i></a>
+    </div>
+    <div class="social_item">
+      <a href="https://www.instagram.com/zmiyuchkaa/" target="_blank"><i class="fab fa-instagram"></i></a>
+    </div>
+    <div class="social_item">
+      <a href="https://www.facebook.com/rolskaolena?ref=bookmarks" target="_blank"><i class="fab fa-facebook-f"></i></a>
+    </div>
+    </div>
+  </section>
+
+</body>
+</html>
